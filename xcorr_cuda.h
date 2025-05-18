@@ -12,6 +12,6 @@
 
 using namespace std;
 
-vector<vector<float>> runCAF(cufftComplex* primSig, cufftComplex* secondSig, int64_t lenPrimSig, int64_t lenSecondSig);
+vector<vector<float>> xcorr(cufftComplex* primSig, cufftComplex* secondSig, int64_t lenPrimSig, int64_t lenSecondSig);
 
 #endif // XCORR_CUDA_H
